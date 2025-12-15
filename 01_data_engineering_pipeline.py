@@ -19,8 +19,8 @@
 # COMMAND ----------
 
 #As Databricks Unity Catalog doesnt allow us to create the database in the Pyspark code, 
-#If we try create a database using Pyspark code it will create a Database but then the remaining pyspark code cant read the database even the database is created, 
-#So the traiditinal approach should be creating a database using the SQL Commands below and
+#If we try create a database using Pyspark code it will create a Database but then the remaining pyspark code cant read the database even after the database is created, 
+#In this Scenario the approach should be creating a database using the SQL Commands below and
 #then use the below pyspark code for the remaining pipeline 
 
 
